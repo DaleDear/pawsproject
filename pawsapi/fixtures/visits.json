@@ -1,0 +1,46 @@
+[
+    {
+        "model": "pawsproject.visit",
+        "pk": 1,
+        "fields": {
+            "visit_type": 1,
+            "visit_start_date": "2024-04-24",
+            "visit_end_date": "2024-04-25",
+            "date": "2024-04-24T08:00:00Z",
+            "user": 1
+        }
+    },
+    {
+        "model": "pawspropject.visit",
+        "pk": 2,
+        "fields": {
+            "visit_type": 2,
+            "visit_start_date": "2024-04-25",
+            "visit_end_date": "2024-04-26",
+            "date": "2024-04-25T10:00:00Z",
+            "user": 2
+        }
+    },
+    {
+        "model": "pawspropject.visit",
+        "pk": 3,
+        "fields": {
+            "visit_type": 2,
+            "visit_start_date": "2024-02-25",
+            "visit_end_date": "2024-02-30",
+            "date": "2024-04-25T10:00:00Z",
+            "user": 2
+        }
+    },
+    {
+        "model": "pawspropject.visit",
+        "pk": 4,
+        "fields": {
+            "visit_type": 1,
+            "visit_start_date": "2024-03-12",
+            "visit_end_date": "2024-03-14",
+            "date": "2024-04-25T10:00:00Z",
+            "user": 3
+        }
+    },
+]    

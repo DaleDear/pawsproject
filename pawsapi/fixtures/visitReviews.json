@@ -1,0 +1,25 @@
+[
+    {
+        "model": "pawsproject.visitReview",
+        "pk": 1,
+        "fields": {
+            "visit": 1,
+            "user": 2,
+            "rating": 5,
+            "comment": "Great service!",
+            "date": "2024-04-25"
+        }
+    },
+    {
+        "model": "pawsproject.visitReview",
+        "pk": 2,
+        "fields": {
+            "visit": 2,
+            "user": 1,
+            "rating": 4,
+            "comment": "Good experience.",
+            "date": "2024-04-26"
+        }
+    },
+    // Add more visit review fixtures as needed
+]
