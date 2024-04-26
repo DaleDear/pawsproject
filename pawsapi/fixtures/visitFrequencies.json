@@ -1,0 +1,16 @@
+[
+  {
+    "model": "pawsapi.VisitFrequency",
+    "pk": 1,
+    "fields": {
+      "description": "One visit per day"
+    }
+  },
+  {
+    "model": "pawsapi.VisitFrequency",
+    "pk": 2,
+    "fields": {
+      "description": "Two visits per day"
+    }
+  }
+]

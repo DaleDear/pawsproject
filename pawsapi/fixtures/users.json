@@ -1,0 +1,74 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$fHDURJBIASpx$trZS1MWc6YiNe5EYNBap+P+zMAwpNgNbUZH/b9bgvdw=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "mike",
+            "first_name": "Mike",
+            "last_name": "Baxter",
+            "email": "mike@mikebaxter.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-10-10T19:12:13.676Z",
+            "pet_details": "1 Cat named Chester. He is a super friendly 8-year old long-haired Chantilly.",
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$fHDURJBIASpx$trZS1MWc6YiNe5EYNBap+P+zMAwpNgNbUZH/b9bgvdw=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "sarah",
+            "first_name": "Sarah",
+            "last_name": "Price",
+            "email": "sarah@sarahprice.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-10-10T22:47:43.564Z",
+            "pet_details": "I have a dog named Cooper. He is well-behaved 5-year old Goldendoodle.",
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 7,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$fHDURJBIASpx$trZS1MWc6YiNe5EYNBap+P+zMAwpNgNbUZH/b9bgvdw=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "becky",
+            "first_name": "Becky",
+            "last_name": "Hudson",
+            "email": "becky@beckyhudson.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-10-10T22:48:19.899Z",
+            "pet_details": "We have 2 Cats. Their names are Sparkle (white) and Daisy (black) .",
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 8,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$fHDURJBIASpx$trZS1MWc6YiNe5EYNBap+P+zMAwpNgNbUZH/b9bgvdw=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "brenda",
+            "first_name": "Brenda",
+            "last_name": "Long",
+            "email": "brenda@brendalong.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-10-10T22:48:53.984Z",
+            "pet_details": "1 Cat named Taylor. She is a shy short-haired orange tabby.",
+            "user_permissions": []
+        }
+    }
+]

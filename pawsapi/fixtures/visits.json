@@ -1,46 +1,84 @@
 [
-    {
-        "model": "pawsproject.visit",
-        "pk": 1,
-        "fields": {
-            "visit_type": 1,
-            "visit_start_date": "2024-04-24",
-            "visit_end_date": "2024-04-25",
-            "date": "2024-04-24T08:00:00Z",
-            "user": 1
-        }
-    },
-    {
-        "model": "pawspropject.visit",
-        "pk": 2,
-        "fields": {
-            "visit_type": 2,
-            "visit_start_date": "2024-04-25",
-            "visit_end_date": "2024-04-26",
-            "date": "2024-04-25T10:00:00Z",
-            "user": 2
-        }
-    },
-    {
-        "model": "pawspropject.visit",
-        "pk": 3,
-        "fields": {
-            "visit_type": 2,
-            "visit_start_date": "2024-02-25",
-            "visit_end_date": "2024-02-30",
-            "date": "2024-04-25T10:00:00Z",
-            "user": 2
-        }
-    },
-    {
-        "model": "pawspropject.visit",
-        "pk": 4,
-        "fields": {
-            "visit_type": 1,
-            "visit_start_date": "2024-03-12",
-            "visit_end_date": "2024-03-14",
-            "date": "2024-04-25T10:00:00Z",
-            "user": 3
-        }
-    },
-]    
+  {
+    "model": "pawsapi.Visit",
+    "pk": 1,
+    "fields": {
+      "visit_type": 1,
+      "visit_start_date": "2023-04-24",
+      "visit_end_date": "2023-04-25",
+      "visit_frequency": 1,
+      "pet_type": 1,
+      "user": 6,
+      "actions": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "model": "pawsapi.Visit",
+    "pk": 2,
+    "fields": {
+      "visit_type": 2,
+      "visit_start_date": "2023-04-26",
+      "visit_end_date": "2023-04-29",
+      "visit_frequency": 1,
+      "pet_type": 2,
+      "user": 5,
+      "actions": [
+        1,
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "model": "pawsapi.Visit",
+    "pk": 3,
+    "fields": {
+      "visit_type": 1,
+      "visit_start_date": "2023-04-28",
+      "visit_end_date": "2023-04-30",
+      "visit_frequency": 1,
+      "pet_type": 1,
+      "user": 6,
+      "actions": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "model": "pawsapi.Visit",
+    "pk": 4,
+    "fields": {
+      "visit_type": 2,
+      "visit_start_date": "2023-04-24",
+      "visit_end_date": "2023-04-28",
+      "visit_frequency": 2,
+      "pet_type": 2,
+      "user": 7,
+      "actions": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "pawsapi.Visit",
+    "pk": 5,
+    "fields": {
+      "visit_type": 2,
+      "visit_start_date": "2023-04-29",
+      "visit_end_date": "2023-04-29",
+      "visit_frequency": 1,
+      "pet_type": 2,
+      "user": 8,
+      "actions": [
+        1,
+        2,
+        4
+      ]
+    }
+  }
+]

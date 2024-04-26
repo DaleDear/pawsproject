@@ -1,52 +1,52 @@
 [
     {
-        "model": "pawsproject.petType",
+        "model": "pawsapi.petType",
         "pk": 1,
         "fields": {
             "type": "Dog"
         }
     },
     {
-        "model": "pawsproject.petType",
+        "model": "pawsapi.petType",
         "pk": 2,
         "fields": {
             "type": "Cat"
         }
     },
     {
-        "model": "pawsproject.petType",
+        "model": "pawsapi.petType",
         "pk": 3,
         "fields": {
             "type": "Rabbit"
         }
     },
     {
-        "model": "pawsproject.petType",
+        "model": "pawsapi.petType",
         "pk": 4,
         "fields": {
             "type": "Turtle"
         }
     },
     {
-        "model": "pawsproject.petType",
+        "model": "pawsapi.petType",
         "pk": 5,
         "fields": {
             "type": "Fish"
         }
     },
     {
-        "model": "pawsproject.petType",
+        "model": "pawsapi.petType",
         "pk": 6,
         "fields": {
             "type": "Hamster"
         }
     },
     {
-        "model": "pawsproject.petType",
+        "model": "pawsapi.petType",
         "pk": 7,
         "fields": {
             "type": "Guinea Pig"
         }
-    },
+    }
     // Add more pet type fixtures as needed
 ]

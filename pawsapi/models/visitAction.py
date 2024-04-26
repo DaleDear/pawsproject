@@ -1,9 +1,8 @@
 from django.db import models
 from .visit import Visit
-from .petType import PetType
+from .action import Actions  # Import the Actions model
 
 
 class VisitActions(models.Model):
     visit = models.ForeignKey(Visit, on_delete=models.CASCADE)
-    petType = models.ForeignKey(PetType, on_delete=models.CASCADE)
-    actions = models.CharField(max_length=255)
+    action = models.ForeignKey(Actions, on_delete=models.CASCADE)  # Add a foreign key to the Actions model
