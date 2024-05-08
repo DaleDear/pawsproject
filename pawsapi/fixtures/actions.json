@@ -1,27 +1,27 @@
 [
   {
-    "model": "pawsapi.Actions",
+    "model": "pawsapi.action",
     "pk": 1,
     "fields": {
       "type": "Check/refill food and water"
     }
   },
   {
-    "model": "pawsapi.Actions",
+    "model": "pawsapi.action",
     "pk": 2,
     "fields": {
       "type": "Brush hair"
     }
   },
   {
-    "model": "pawsapi.Actions",
+    "model": "pawsapi.action",
     "pk": 3,
     "fields": {
       "type": "Give medication as directed"
     }
   },
   {
-    "model": "pawsapi.Actions",
+    "model": "pawsapi.action",
     "pk": 4,
     "fields": {
       "type": "Give treats"

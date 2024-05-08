@@ -1,6 +1,6 @@
 [
   {
-    "model": "pawsapi.VisitActions",
+    "model": "pawsapi.visitAction",
     "pk": 1,
     "fields": {
       "visit": 1,
@@ -8,15 +8,15 @@
     }
   },
   {
-    "model": "pawsapi.VisitActions",
+    "model": "pawsapi.visitAction",
     "pk": 2,
     "fields": {
-      "visit": 1,
+      "visit": 3,
       "action": 2
     }
   },
   {
-    "model": "pawsapi.VisitActions",
+    "model": "pawsapi.visitAction",
     "pk": 3,
     "fields": {
       "visit": 2,
@@ -24,7 +24,7 @@
     }
   },
   {
-    "model": "pawsapi.VisitActions",
+    "model": "pawsapi.visitAction",
     "pk": 4,
     "fields": {
       "visit": 2,
@@ -32,4 +32,4 @@
     }
   }
 ]
-    // Add more visit action fixtures as needed
+    

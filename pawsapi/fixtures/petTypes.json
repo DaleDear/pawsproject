@@ -3,50 +3,49 @@
         "model": "pawsapi.petType",
         "pk": 1,
         "fields": {
-            "type": "Dog"
+            "pet_type": "Dog"
         }
     },
     {
         "model": "pawsapi.petType",
         "pk": 2,
         "fields": {
-            "type": "Cat"
+            "pet_type": "Cat"
         }
     },
     {
         "model": "pawsapi.petType",
         "pk": 3,
         "fields": {
-            "type": "Rabbit"
+            "pet_type": "Rabbit"
         }
     },
     {
         "model": "pawsapi.petType",
         "pk": 4,
         "fields": {
-            "type": "Turtle"
+            "pet_type": "Turtle"
         }
     },
     {
         "model": "pawsapi.petType",
         "pk": 5,
         "fields": {
-            "type": "Fish"
+            "pet_type": "Fish"
         }
     },
     {
         "model": "pawsapi.petType",
         "pk": 6,
         "fields": {
-            "type": "Hamster"
+            "pet_type": "Hamster"
         }
     },
     {
         "model": "pawsapi.petType",
         "pk": 7,
         "fields": {
-            "type": "Guinea Pig"
+            "pet_type": "Guinea Pig"
         }
     }
-    // Add more pet type fixtures as needed
 ]
