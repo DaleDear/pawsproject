@@ -1,19 +1,16 @@
 [
     {
-        "model": "pawsproject.visitType",
+        "model": "pawsapi.visitType",
         "pk": 1,
         "fields": {
-            "type": "Outside-Walking",
-            "pet_type": 1
+            "visit_type": "Outside-Walking"
         }
     },
     {
-        "model": "pawsproject.visitType",
+        "model": "pawsapi.visitType",
         "pk": 2,
         "fields": {
-            "type": "In-Home Visit",
-            "pet_type": 2
+            "visit_type": "In-Home Visit"
         }
-    },
-    // Add more visit type fixtures as needed
+    }
 ]

@@ -1,39 +1,35 @@
 [
-    {
-        "model": "pawsproject.visitActions",
-        "pk": 1,
-        "fields": {
-            "visit": 1,
-            "pet_type": 1,
-            "actions": "Check/Refill Water and Food"
-        }
-    },
-    {
-        "model": "pawsproject.visitActions",
-        "pk": 2,
-        "fields": {
-            "visit": 2,
-            "pet_type": 2,
-            "actions": "Check/Refill Water and Food"
-        }
-    },
-    {
-        "model": "pawsproject.visitActions",
-        "pk": 3,
-        "fields": {
-            "visit": 4,
-            "pet_type": 2,
-            "actions": "Check/Refill Water and Food"
-        }
-    },
-    {
-        "model": "pawsproject.visitActions",
-        "pk": 4,
-        "fields": {
-            "visit": 1,
-            "pet_type": 1,
-            "actions": "Take for a walk at dog park"
-        }
-    },
-    // Add more visit action fixtures as needed
+  {
+    "model": "pawsapi.visitAction",
+    "pk": 1,
+    "fields": {
+      "visit": 1,
+      "action": 1
+    }
+  },
+  {
+    "model": "pawsapi.visitAction",
+    "pk": 2,
+    "fields": {
+      "visit": 3,
+      "action": 2
+    }
+  },
+  {
+    "model": "pawsapi.visitAction",
+    "pk": 3,
+    "fields": {
+      "visit": 2,
+      "action": 3
+    }
+  },
+  {
+    "model": "pawsapi.visitAction",
+    "pk": 4,
+    "fields": {
+      "visit": 2,
+      "action": 4
+    }
+  }
 ]
+    
